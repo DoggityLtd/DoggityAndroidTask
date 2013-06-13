@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class SDRequest {
     ArrayList <RequestProcessor> handlerStack;
     boolean canceled;
-    ResponseReciever owner;
+    public ResponseReciever owner;
     public RequestProcessor handler;
 
     static public Object requestWithOwner(ResponseReciever owner)

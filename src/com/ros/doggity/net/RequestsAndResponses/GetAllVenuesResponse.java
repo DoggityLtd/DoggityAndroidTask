@@ -1,8 +1,9 @@
-package com.ros.doggity.net;
+package com.ros.doggity.net.RequestsAndResponses;
 
 import java.util.ArrayList;
 
 import com.ros.doggity.model.Venue;
+import com.ros.doggity.net.SDResult;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -43,7 +44,7 @@ public class GetAllVenuesResponse extends SDResult {
 
                 //Max dog size allowed value
                 if(jsonVenue.has("maxDogSize")) {
-                    venue.setAddress(jsonVenue.getString("maxDogSize"));
+                    venue.setMaxDogSize(jsonVenue.getString("maxDogSize"));
                 }
 
                 /* extracting pictures */

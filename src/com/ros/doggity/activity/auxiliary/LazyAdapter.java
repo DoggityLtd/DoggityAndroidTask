@@ -58,7 +58,7 @@ public class LazyAdapter extends BaseAdapter {
 
         // venue max dog size
         TextView maxDogSizeTextView = (TextView)vi.findViewById(R.id.textDogSize);
-        maxDogSizeTextView.setText(venues.get(position).getMaxDogSize());
+        maxDogSizeTextView.setText(venues.get(position).getMaxDogSize() + " size allowed");
 
 
         String picURL = venues.get(position).getPictureURLForDisplay();
@@ -66,7 +66,8 @@ public class LazyAdapter extends BaseAdapter {
             picURL = new StringBuilder().append("http://res.dev.friendbuy.de/").append(picURL).toString();
         }
         else{
-            picURL = "http://a1.twimg.com/profile_images/645523828/OT_icon_090918_android_normal.png";
+
+            picURL =  "http://www.meritsolutions.com.au/wp-content/uploads/2011/10/QuestionMark_Job_Interviews-200x200.jpg";
 
         }
         imageLoader.DisplayImage(picURL, image);

@@ -1,4 +1,7 @@
-package com.ros.doggity.net;
+package com.ros.doggity.net.RequestsAndResponses;
+
+import com.ros.doggity.net.ResponseReciever;
+import com.ros.doggity.net.SDRequest;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;

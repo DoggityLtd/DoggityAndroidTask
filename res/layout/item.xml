@@ -30,11 +30,11 @@
 
                 <ImageView
                     android:id="@+id/imageRate"
-                    android:layout_width="70dip"
-                    android:layout_height="20dip"
+                    android:layout_width="54dip"
+                    android:layout_height="12dip"
                     android:layout_marginTop="2dip"
-                    android:src="@drawable/stub"
-                    android:scaleType="centerCrop"/>
+                    android:layout_marginLeft="10dip"
+                    android:src="@drawable/stars" />
 
                 <TextView
                      android:id="@+id/textAddress"
@@ -42,7 +42,7 @@
                      android:layout_height="wrap_content"
                      android:layout_weight="1"
                      android:textColor="#000"
-                     android:layout_marginTop="6dip"
+                     android:layout_marginTop="5dip"
                      android:layout_gravity="left|center_vertical"
                      android:textSize="12dip" android:text="Address"
                      android:layout_marginLeft="10dip"/>

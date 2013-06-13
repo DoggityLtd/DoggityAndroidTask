@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DoggityTask.iml" filepath="$PROJECT_DIR$/DoggityTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DoggityAndroidTask.iml" filepath="$PROJECT_DIR$/DoggityAndroidTask.iml" />
     </modules>
   </component>
 </project>
